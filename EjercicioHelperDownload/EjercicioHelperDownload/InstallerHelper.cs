@@ -1,17 +1,22 @@
 ﻿using System;
 using System.Net;
 
-
-
 namespace EjercicioHelperDownload
 {
-    public class InstallerHelper
+    public class InstallerHelper 
     {
         private string _setupDestinationFile;
 
+        readonly IwClient client;
+
+        public InstallerHelper(IwClient w)
+        {
+            client = w;
+        }
+
         public bool DownloadInstaller(string customerName, string installerName)
         {
-            var client = new WebClient();
+            //var client = new WebClient();
             try
             {
                 client.DownloadFile(
