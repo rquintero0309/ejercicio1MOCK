@@ -1,14 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="EjercicioHelperDownload/Class1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EjercicioHelperDownload/InstallerHelper.cs">
     <Files>
-      <File FileName="EjercicioHelperDownload/Class1.cs" Line="1" Column="1" />
+      <File FileName="EjercicioHelperDownload/Class1.cs" Line="17" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EjercicioHelperDownload" expanded="True">
             <Node name="EjercicioHelperDownload" expanded="True">
-              <Node name="Class1.cs" selected="True" />
+              <Node name="InstallerHelper.cs" selected="True" />
             </Node>
           </Node>
         </State>
